@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+.cards {
+  width: 70px;
+  padding: 20px;
+  
+}
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.image_box img {
+  width: 200px;
+  height: 200px;
+}
+
+.details p:nth-child(1) {
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+}
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+}
+.details p:nth-child(3) {
+  font-weight: bolx;
+  color: darkgreen;
+  font-weight: bold;
+}
+.details p:nth-child(4) {
+  font-weight: bolx;
+  color:rgb(5, 5, 5);
+  font-family: Georgia;
+}
+.details p:nth-child(5) {
+  font-weight: bolx;
+  color: rgb(5, 5, 5);
+  font-weight: bold;
+}
+.details button {
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: rgb(47, 97, 236);
+  outline: none;
+  
+}
+  
